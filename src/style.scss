@@ -51,6 +51,12 @@
     .todos{
         width: 90%;
         margin: 15px auto 0;
+        .complate{
+            opacity: 0.5;
+            .todo-text{
+                text-decoration: line-throught;
+            }
+        }
         .todo-row{
             width: 100%;
             margin: 6px 0;
@@ -62,6 +68,7 @@
             border-radius: 7px;
             .todo-text{
                 font-size: 18px;
+                width: 100%;
             }
         }
         .icons{
